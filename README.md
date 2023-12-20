@@ -37,7 +37,15 @@ from experiment_DUNE_CPOptimized import *
 in the `functions.py` file.
 
 ## Citation
-If you do use anything here please cite the paper [arXiv:2312.xxxx](http://arxiv.org/abs/2312.xxxx).
+If you do use anything here please cite the paper [arXiv:2312.12420](http://arxiv.org/abs/2312.12420).
 ```
-@article{}
+@article{Abbaslu:2023vqk,
+    author = "Abbaslu, Saeed and Dehpour, Mehran and Farzan, Yasaman and Safari, Sahar",
+    title = "{Searching for Axial Neutral Current Non-Standard Interactions of neutrinos by DUNE-like experiments}",
+    eprint = "2312.12420",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    month = "12",
+    year = "2023"
+}
 ```
