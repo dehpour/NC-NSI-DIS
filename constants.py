@@ -13,9 +13,9 @@ gVu =  1/2 - 4/3 * sthW2
 gVd = -1/2 + 2/3 * sthW2
 gVs = -1/2 + 2/3 * sthW2
 
-gAu =  1/2
-gAd = -1/2
-gAs = -1/2
+gAu = -1/2
+gAd = +1/2
+gAs = +1/2
 
 fVuee   = gVu
 fVdee   = gVd
