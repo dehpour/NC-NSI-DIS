@@ -1,5 +1,5 @@
-# Searching for Axial Neutral Current Non-Standard Interaction of neutrinos by DUNE-like experiment
-Our codebase computing the number of Neutral Current Deep Inelastic Scattering events in the presence of Axial Non-Standard Interaction at near and far detectors of a DUNE-like setup is here.
+# The neutrino-Nucleus NC DIS in the presence of axial NC NSI in the DUNE-like
+Our codebase computing the Neutral Current Deep Inelastic Scattering of neutrino from nucleon number of events in the presence of axial Non-Standard Interaction at near and far detectors of a DUNE-like setup is here.
 
 ## Prerequisite
 ```
