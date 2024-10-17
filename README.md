@@ -1,5 +1,5 @@
 # The neutrino-Nucleus NC DIS in the presence of axial NC NSI in the DUNE-like
-Our codebase computing the Neutral Current Deep Inelastic Scattering of neutrino from nucleon number of events in the presence of axial Non-Standard Interaction at near and far detectors of a DUNE-like setup is here.
+Our codebase computing the Neutral Current Deep Inelastic Scattering of neutrino from nucleon number of events in the presence of axial NC Non-Standard Interaction at near and far detectors of a DUNE-like setup is here.
 
 ## Prerequisite
 ```
@@ -20,7 +20,7 @@ NbarFD(*arguments)
 NND(*arguments)
 NbarND(*arguments)
 ```
-calculated the number of events @ DUNE-like experiment in the Far Detector (FD) with neutrino and antineutrino mode and Near Detector (ND) with neutrino and antineutrino mode respectively with axial nonstandard parameters as follows:
+calculated the number of events @ DUNE-like experiment in the Far Detector (FD) with neutrino and antineutrino mode and Near Detector (ND) with neutrino and antineutrino mode respectively with NC axial nonstandard parameters as follows:
 ```python
 arguments = [epsilonAu_ee,epsilonAu_mue,epsilonAu_taue,epsilonAu_mumu,epsilonAu_taumu,epsilonAu_tautau,epsilonAd_ee,epsilonAd_mue,epsilonAd_taue,epsilonAd_mumu,epsilonAd_taumu,epsilonAd_tautau,epsilonAs_ee,epsilonAs_mue,epsilonAs_taue,epsilonAs_mumu,epsilonAs_taumu,epsilonAs_tautau]
 ```
