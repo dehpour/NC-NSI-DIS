@@ -16,7 +16,7 @@ NbarFD(*arguments)
 NND(*arguments)
 NbarND(*arguments)
 ```
-to calculate the number of events at DUNE experiment in the Far Detector (FD) with neutrino and antineutrino mode and Near Detector (ND) with neutrino and antineutrino mode with NC axial nonstandard parameters as follows:
+to calculate the number of events at DUNE-like experiment in the Far Detector (FD) with neutrino and antineutrino mode and Near Detector (ND) with neutrino and antineutrino mode with NC axial nonstandard parameters as follows:
 ```python
 arguments = [epsilonAu_ee,epsilonAu_mue,epsilonAu_taue,epsilonAu_mumu,epsilonAu_taumu,epsilonAu_tautau,epsilonAd_ee,epsilonAd_mue,epsilonAd_taue,epsilonAd_mumu,epsilonAd_taumu,epsilonAd_tautau,epsilonAs_ee,epsilonAs_mue,epsilonAs_taue,epsilonAs_mumu,epsilonAs_taumu,epsilonAs_tautau]
 ```
