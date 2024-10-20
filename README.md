@@ -1,5 +1,5 @@
-# The neutrino-Nucleus NC DIS in the presence of axial NC NSI in the DUNE-like
-Our codebase computing the Neutral Current Deep Inelastic Scattering of neutrino from nucleon number of events in the presence of axial NC Non-Standard Interaction at near and far detectors of a DUNE-like setup is here.
+# NC axial NSI in DIS of neutrino-nucleon at the DUNE-like
+Here is our codebase for computing the Neutral Current (NC) Deep Inelastic Scattering (DIS) of neutrino from nucleon number of events in the presence of axial NC Non-Standard Interaction (NSI) at Near Detector (ND) and Far Detectors (FD) of a Deep Underground Neutrino Experiment (DUNE) setup.
 
 ## Prerequisite
 We just used `python3` with `numpy` and `pandas` libs.
@@ -16,13 +16,13 @@ NbarFD(*arguments)
 NND(*arguments)
 NbarND(*arguments)
 ```
-to calculate the number of events at DUNE-like experiment in the Far Detector (FD) with neutrino and antineutrino mode and Near Detector (ND) with neutrino and antineutrino mode with NC axial nonstandard parameters as follows:
+to calculate the number of events at DUNE-like experiment in the FD with neutrino and antineutrino mode and ND with neutrino and antineutrino mode with NC axial nonstandard parameters as follows:
 ```python
 arguments = [epsilonAu_ee,epsilonAu_mue,epsilonAu_taue,epsilonAu_mumu,epsilonAu_taumu,epsilonAu_tautau,epsilonAd_ee,epsilonAd_mue,epsilonAd_taue,epsilonAd_mumu,epsilonAd_taumu,epsilonAd_tautau,epsilonAs_ee,epsilonAs_mue,epsilonAs_taue,epsilonAs_mumu,epsilonAs_taumu,epsilonAs_tautau]
 ```
 
 ### Experiments
-By default, the loaded experiment is the `TDR version of DUNE with CP optimized flux`. One can use another arbitrary experiment like `EXP` by providing auxiliary files like fluxes and oscillation amplitudes and make their own `experiment_EXP.py` file and then replace
+The loaded experiment is the `TDR version of DUNE with CP optimized flux` by default. One can use another arbitrary experiment like `EXP` by providing auxiliary files like fluxes and oscillation amplitudes and make their own `experiment_EXP.py` file and then replace
 ```python
 from experiment_EXP import *
 ```
