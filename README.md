@@ -1,5 +1,5 @@
 # NC-NSI-DIS
-Here is our codebase for computing the Neutral Current (NC) Deep Inelastic Scattering (DIS) of neutrino from nucleon number of events (for now, only) in the presence of axial NC Non-Standard Interaction (NSI) at Near Detector (ND) and Far Detectors (FD) of a Deep Underground Neutrino Experiment (DUNE) setup.
+Here is our codebase for computing the Neutral Current (NC) Deep Inelastic Scattering (DIS) of neutrino from nucleon number of events only in the presence of axial NC Non-Standard Interaction (NSI) for now at Near Detector (ND) and Far Detectors (FD) of a Deep Underground Neutrino Experiment (DUNE) -like setup.
 
 ### Prerequisite
 We just used `python3` with `numpy` and `pandas` libs.
