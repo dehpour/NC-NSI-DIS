@@ -35,7 +35,7 @@ arguments = [epsilonAu_ee,epsilonAu_mue,epsilonAu_taue,epsilonAu_mumu,epsilonAu_
 ```
 
 ## Cite
-If you do use anything here please cite the paper [arXiv:2312.12420](http://arxiv.org/abs/2312.12420).
+If you do use anything here please cite the paper [arXiv:2312.12420](http://arxiv.org/abs/2312.12420) [[JHEP 04 (2024) 038](https://doi.org/10.1007/JHEP04(2024)038)].
 ```
 @article{Abbaslu:2023vqk,
     author = "Abbaslu, Saeed and Dehpour, Mehran and Farzan, Yasaman and Safari, Sahar",
